@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+
+.navbar {
+    display: flex;
+    text-align:right;
+    background-color: #000;
+    padding: 20px;
+    color :red;
+    justify-content: flex-start;
+    height:30px;
+    
+}
+
+.navbar a {
+    text-decoration:none;
+    color :white;
+    margin: 0 10px;
+    font-size:22px;
+}
+
+.home {
+    font-size: large;
+    font-weight: bold;
+    color: #e50914;
+    justify-content:flex-start;
+}
+
+.navbar a:hover {
+    color:red;
+}
+
+.img{
+    position: relative;
+    background-color: linear-gradient(90deg, black 45%, transparent 100%)
+  }
+  
+
+.text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color:rgb(255, 249, 249);
+    border-radius: 10px;
+    border:10px;
+    padding-bottom: 30px;
+ }
+
+ h1 {
+   text-family: Monospace text;  
+   color :bisque;
+
+ }
+
+ h2
+ {
+  color:white;
+ }
+
+ .thriller {
+    display:inline-flex; /* Displays items in a row */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 15px; /* Space between movies */
+    padding: 20px;
+    background-color:black;
+
+   
+  }
+  
+  .movie {
+    width: 100px; /* Adjust width of movie item */
+    text-align: center;
+  }
+  
+  .movie img {
+    width: 100%;
+    height:50%; /* Make images fill their containers */
+    border-radius: 8px;
+  }
+  
+  .movie h3 {
+    margin-top: 5px;
+    font-size: 16px;
+    color:white;
+  }
+  
+  .comedy {
+    display:inline-flex; /* Displays items in a row */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 15px; /* Space between movies */
+    padding: 20px;
+    background-color:black;
+
+   
+  }
+  
+  .movie {
+    width: 200px; /* Adjust width of movie item */
+    text-align: center;
+  }
+  
+  .movie img {
+    width: 100%;
+    height:100%; /* Make images fill their containers */
+    border-radius: 8px;
+  }
+  
+  .movie h3 {
+    margin-top: 5px;
+    font-size: 16px;
+    color:white;
+  }
+  
+  .Horror {
+    display:inline-flex; /* Displays items in a row */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 15px; /* Space between movies */
+    padding: 20px;
+    background-color:black;
+
+   
+  }
+  
+  .movie {
+    width: 200px; /* Adjust width of movie item */
+    text-align: center;
+  }
+  
+  .movie img {
+    width: 100%;
+    height:100%; /* Make images fill their containers */
+    border-radius: 8px;
+  }
+  
+  .movie h3 {
+    margin-top: 5px;
+    font-size: 16px;
+    color:white;
+  }
+  
+  .Kids{
+    display:inline-flex; /* Displays items in a row */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 15px; /* Space between movies */
+    padding: 20px;
+    background-color:black;
+
+   
+  }
+  
+  .movie {
+    width: 200px; /* Adjust width of movie item */
+    text-align: center;
+  }
+  
+  .movie img {
+    width: 100%;
+    height:100%; /* Make images fill their containers */
+    border-radius: 8px;
+  }
+  
+  .movie h3 {
+    margin-top: 5px;
+    font-size: 16px;
+    color:white;
+  }
+  
